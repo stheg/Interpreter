@@ -1,0 +1,10 @@
+k = 3;
+n = 0;
+goto lab;
+while(k<5)
+{
+n = n + k+10;
+lab:
+k = k+1;
+}
+k = k - 5;print(k);

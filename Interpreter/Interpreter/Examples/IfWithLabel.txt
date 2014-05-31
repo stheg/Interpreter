@@ -1,0 +1,12 @@
+a = 1;
+b = 0;
+goto lab;
+if(a == b)
+{
+lab:
+print("true");
+}
+else
+{
+print("false");
+}

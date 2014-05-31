@@ -1,0 +1,9 @@
+k=1;
+goto l1;
+k = 3;
+l1:
+n = k;
+goto l2;
+n = 123;
+l2:
+print(n);

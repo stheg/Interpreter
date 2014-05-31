@@ -1,0 +1,12 @@
+n = 0;
+while(n<5)
+{
+n = n +1;
+print(n);
+}
+k = n;
+while(k>0)
+{
+k = k -1;
+print(k);
+}
