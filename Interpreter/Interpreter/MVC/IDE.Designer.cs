@@ -49,14 +49,14 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tpErrors = new System.Windows.Forms.TabPage();
             this.lvErrors = new System.Windows.Forms.ListView();
-            this.colError = new System.Windows.Forms.ColumnHeader();
-            this.colPosition = new System.Windows.Forms.ColumnHeader();
+            this.colError = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colPosition = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tpOutput = new System.Windows.Forms.TabPage();
             this.tbOutput = new System.Windows.Forms.TextBox();
             this.tpWatches = new System.Windows.Forms.TabPage();
             this.lvWatches = new System.Windows.Forms.ListView();
-            this.colVariavle = new System.Windows.Forms.ColumnHeader();
-            this.colValue = new System.Windows.Forms.ColumnHeader();
+            this.colVariavle = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colValue = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.cMenuWatches = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tpBreakpoints = new System.Windows.Forms.TabPage();
             this.tbBreakpoints = new System.Windows.Forms.TextBox();
@@ -360,6 +360,7 @@
             this.MainMenuStrip = this.mainMenu;
             this.Name = "IDE";
             this.Text = "PInt";
+            this.Load += new System.EventHandler(this.IDE_Load);
             this.mainMenu.ResumeLayout(false);
             this.mainMenu.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);

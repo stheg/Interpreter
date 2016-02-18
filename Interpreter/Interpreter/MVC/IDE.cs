@@ -285,5 +285,10 @@ namespace Interpreter
             lvWatches.Items.Clear();
             CallCompile(rtbSourceCode.Text, new BreakpointPosition());
         }
+
+        private void IDE_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
